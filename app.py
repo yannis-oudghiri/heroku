@@ -33,7 +33,7 @@ fig2.update_layout(
 
 app.layout = html.Div([
     html.H1(children='Growth', style={'textAlign':'center'}),
-    dcc.Graph(figure = fig1)
+    dcc.Graph(figure = fig1),
     dcc.Graph(figure = fig2)
 ])
 
